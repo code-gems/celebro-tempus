@@ -1,5 +1,5 @@
 # Tempus
-Tempus is a AnglarJS based plugin for Celebro® framework. Celebro® was designed and developed by Adrian Handarowicz.
+Tempus is a AnglarJS based plugin for Cerebro® framework. Cerebro® was designed and developed by Adrian Handarowicz.
 
 
 ## Implementation & Usage
