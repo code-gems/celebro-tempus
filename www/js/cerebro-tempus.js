@@ -99,12 +99,11 @@ cerebro
 			.replace( /(yyyy)/g, yyyy )
 			.replace( /(yy)/g, yy );
 
-
 		return res;
 	};
 
 	factory.when = function() {
-		// ... time ago
+		// ... todo - time ago feature
 	};
 
 	return factory;
