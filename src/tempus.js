@@ -14,7 +14,7 @@ cerebro
 			return hour;
 		},
 
-		reformat = function( input, input_format, flag ) {
+		reformat = function( input, input_format ) {
 
 			if ( typeof input_format == "undefined" || typeof input == "undefined") return input || "";
 			var output, format, h, hh, m, mm, s, ss, MM, dd, yyyy;
@@ -40,7 +40,7 @@ cerebro
 	factory.format = function( output_format, time, input_format ) {
 		var _date;
 
-		( typeof input_format != 'undefined' ) ? time = reformat( time, input_format, 2 ) : null;
+		( typeof input_format != 'undefined' ) ? time = reformat( time, input_format ) : null;
 		( typeof time == "undefined" ) ? _date = new Date() : _date = new Date( time );
 
 		if ( _date == "Invalid Date" ) return time;

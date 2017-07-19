@@ -12,10 +12,13 @@
 	<body ng-app="cerebro">
 		<div class="" ng-controller="mainCtrl">
 			<p>"dd-MM-yyyy hh:mm:ss"</p>
-			{{ tempus.format("dd-MM-yyyy hh:mm:ss") }}
-			<br>
+			<!-- {{ "" | tempusFormat:"dd-MM-yyyy hh:mm a" }} -->
+			<!-- <br>
 			<p>"dd MMM yyyy hh:mm a"</p>
 			{{ tempus.format("dd MMM yyyy hh:mm a") }}
+			<br>
+			<p>Reformat "dd-MM-yyyy hh:mm:ss" -> "yyyy-MM-dd hh:mm a"</p>
+			{{ tempus.format("yyyy-MM-dd hh:mm a", "14-03-2017 10:33:33", "dd-MMM-yyyy hh:mm:ss", 31) }} -->
 		</div>
 	</body>
 </html>
